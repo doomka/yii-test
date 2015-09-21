@@ -10,7 +10,15 @@ class SiteController extends CController
 	 */
 	public function actionIndex()
 	{
-		echo 'Hello World';
+		?>
+        <html>
+        <title>Hello</title>
+
+        <?php
+        echo 'Hello World';
+        ?>
+        </html>
+        <?php
 	}
 
 
